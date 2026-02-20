@@ -1,0 +1,42 @@
+---
+title: 'Crear una cita'
+description: 'Cómo crear nuevas citas en la agenda'
+icon: 'calendar-plus'
+---
+
+## Crear una cita
+
+### Desde la vista de agenda
+
+1. Ve a **Agenda** en el menú lateral
+2. Haz clic en el día y la hora donde quieres agendar
+3. Completa el formulario:
+   - **Paciente**: busca y selecciona al paciente (o créalo si aún no existe)
+   - **Servicio**: elige el tipo de consulta o tratamiento
+   - **Profesional**: selecciona quién atenderá (si aplica)
+   - **Duración**: ajusta si es necesario
+   - **Notas**: observaciones opcionales
+4. Guarda la cita
+
+### Campos del formulario
+
+| Campo        | Obligatorio | Descripción                                   |
+| ------------ | ----------- | --------------------------------------------- |
+| Paciente     | Sí          | Quién asistirá a la cita                      |
+| Servicio     | Sí          | Tipo de consulta o tratamiento                |
+| Fecha y hora | Sí          | Cuándo se realizará la cita                   |
+| Profesional  | Depende     | Si tu clínica tiene varios profesionales      |
+| Duración     | No          | Por defecto según el servicio configurado     |
+| Notas        | No          | Observaciones internas o recordatorios        |
+
+<Tip>
+  Los recordatorios automáticos (email, WhatsApp o SMS) se envían según la configuración de tu clínica. Revisa **Configuración → Clínica** para activarlos.
+</Tip>
+
+<Card
+  title="Siguiente"
+  icon="pen-to-square"
+  href="/nexden/agenda/editar-cita"
+>
+  Editar una cita existente
+</Card>

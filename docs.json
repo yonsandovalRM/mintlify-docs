@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Nexden",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -10,6 +10,61 @@
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
+      {
+        "tab": "Nexden",
+        "groups": [
+          {
+            "group": "Introducción",
+            "pages": [
+              "nexden/introduccion/index",
+              "nexden/introduccion/que-es-nexden",
+              "nexden/introduccion/primeros-pasos"
+            ]
+          },
+          {
+            "group": "Agenda",
+            "pages": [
+              "nexden/agenda/index",
+              "nexden/agenda/crear-cita",
+              "nexden/agenda/editar-cita",
+              "nexden/agenda/cancelar-cita"
+            ]
+          },
+          {
+            "group": "Ficha clínica",
+            "pages": [
+              "nexden/ficha-clinica/index",
+              "nexden/ficha-clinica/crear-ficha",
+              "nexden/ficha-clinica/editar-ficha",
+              "nexden/ficha-clinica/odontograma"
+            ]
+          },
+          {
+            "group": "Pagos",
+            "pages": [
+              "nexden/pagos/index",
+              "nexden/pagos/crear-cobro",
+              "nexden/pagos/registrar-pago"
+            ]
+          },
+          {
+            "group": "Pacientes",
+            "pages": [
+              "nexden/pacientes/index",
+              "nexden/pacientes/crear-paciente",
+              "nexden/pacientes/historial"
+            ]
+          },
+          {
+            "group": "Configuración",
+            "pages": [
+              "nexden/configuracion/index",
+              "nexden/configuracion/usuarios",
+              "nexden/configuracion/clinica"
+            ]
+          }
+        ]
+      },
       {
         "tab": "Guides",
         "groups": [
@@ -90,14 +145,14 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Soporte",
+        "href": "mailto:contacto@nexden.cl"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Ir a Nexden",
+      "href": "https://app.nexden.cl"
     }
   },
   "contextual": {
