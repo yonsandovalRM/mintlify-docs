@@ -1,0 +1,115 @@
+---
+title: 'Datos y privacidad'
+description: 'Exporta tus datos o solicita una migración desde otro software'
+icon: 'shield-halved'
+---
+
+## Datos y privacidad
+
+Desde **Configuración → Datos y privacidad** puedes exportar toda la información de tu clínica en cualquier momento. Esta sección es exclusiva para el **propietario** de la clínica.
+
+---
+
+## Exportar datos de la clínica
+
+Nexden te permite descargar un respaldo completo de tu información. Esto es especialmente útil si decides pausar o cancelar tu cuenta y quieres conservar tus datos.
+
+### ¿Qué incluye la exportación?
+
+El archivo descargado es un `.zip` que contiene los siguientes archivos en formato JSON:
+
+| Archivo | Contenido |
+|---|---|
+| `clinica.json` | Información de la clínica, horarios y configuración |
+| `equipo.json` | Miembros del equipo y sus roles |
+| `servicios.json` | Catálogo de servicios |
+| `pacientes.json` | Fichas de pacientes, historial médico y consentimientos |
+| `citas.json` | Todas las citas (pasadas y futuras) |
+| `notas-de-consulta.json` | Notas clínicas por sesión |
+| `fichas-clinicas.json` | Registros del odontograma |
+| `planes-de-tratamiento.json` | Planes de tratamiento e ítems |
+| `recetas.json` | Prescripciones médicas |
+| `registros-periodontales.json` | Registros periodontales |
+| `pagos.json` | Historial de pagos de pacientes |
+| `README.txt` | Instrucciones de lectura del archivo |
+
+### ¿Cómo exportar?
+
+<Steps>
+  <Step title="Ve a Configuración">
+    En el menú lateral, haz clic en **Configuración**.
+  </Step>
+  <Step title="Busca la sección Datos y privacidad">
+    Desplázate hasta encontrar el apartado **Datos y privacidad** (visible solo para propietarios).
+  </Step>
+  <Step title="Haz clic en Exportar datos">
+    Presiona el botón **Exportar datos** y confirma la acción en el diálogo que aparece.
+  </Step>
+  <Step title="Descarga el archivo">
+    Una vez generado, el archivo `.zip` se descargará automáticamente a tu computador.
+  </Step>
+</Steps>
+
+<Note>
+  La generación puede tomar algunos segundos dependiendo del volumen de información de tu clínica.
+</Note>
+
+### Límite de exportaciones
+
+Por seguridad, puedes realizar **máximo 1 exportación por hora** por clínica. Si intentas exportar antes de que pase ese tiempo, el sistema te indicará cuántos minutos debes esperar.
+
+### Seguridad de los datos exportados
+
+<Warning>
+  El archivo exportado contiene **datos sensibles de tus pacientes**, incluyendo información personal, historial médico y registros clínicos.
+
+  - Guárdalo en un lugar seguro (disco cifrado o almacenamiento protegido).
+  - No lo compartas con personas no autorizadas.
+  - Es tu responsabilidad proteger esta información de acuerdo con la normativa de protección de datos vigente.
+</Warning>
+
+---
+
+## Migración desde otro software
+
+Si vienes de otro sistema de gestión dental y quieres importar tu información histórica a Nexden, nuestro equipo puede ayudarte con el proceso de migración.
+
+### ¿Cómo solicitarla?
+
+Envía un correo a **[contacto@nexden.cl](mailto:contacto@nexden.cl)** con el asunto:
+
+```
+Solicitud de migración de datos — [nombre de tu clínica]
+```
+
+Incluye en el mensaje:
+
+- Nombre de tu clínica
+- Software desde el que migras (ej. Dento, OdontoSoft, planilla Excel, etc.)
+- Formato en que tienes los datos (exportación del software anterior, CSV, Excel, etc.)
+- Cantidad aproximada de pacientes
+
+Nuestro equipo se pondrá en contacto contigo para coordinar el proceso.
+
+<Info>
+  La migración es un proceso manual que se coordina directamente con el equipo de Nexden. Los tiempos pueden variar según el volumen y el formato de los datos.
+</Info>
+
+---
+
+<CardGroup cols={2}>
+  <Card
+    title="Configuración de la clínica"
+    icon="building"
+    href="/nexden/configuracion/clinica"
+  >
+    Datos, horarios e integraciones
+  </Card>
+  <Card
+    title="Volver a Configuración"
+    icon="gear"
+    href="/nexden/configuracion"
+  >
+    Ver todas las opciones de configuración
+  </Card>
+</CardGroup>

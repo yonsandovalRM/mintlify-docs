@@ -74,7 +74,8 @@
             "pages": [
               "nexden/configuracion/index",
               "nexden/configuracion/usuarios",
-              "nexden/configuracion/clinica"
+              "nexden/configuracion/clinica",
+              "nexden/configuracion/datos-y-privacidad"
             ]
           }
         ]
